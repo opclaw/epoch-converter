@@ -1,0 +1,8 @@
+.container {max-width: 800px; margin: 0 auto; padding: 40px 24px}
+.title {text-align: center; margin-bottom: 32px}
+.section {margin-bottom: 24px; background: #f8f9fa; padding: 20px; border-radius: 8px}
+.section label {display: block; margin-bottom: 8px; font-weight: 600}
+.input {width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; margin-bottom: 12px}
+.btn {width: 100%; padding: 12px; background: #667eea; color: white; border: none; border-radius: 6px; cursor: pointer}
+.now {text-align: center; margin-top: 24px}
+.nowBtn {padding: 12px 24px; background: #22c55e; color: white; border: none; border-radius: 6px; cursor: pointer}
