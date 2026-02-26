@@ -3,6 +3,9 @@ import './globals.css'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://epoch-converter.vercel.app'),
+  alternates: {
+    canonical: 'https://epoch-converter.vercel.app',
+  },
   title: 'Epoch Converter — Unix Timestamp to Date | Free Tool',
   description: 'Convert Unix timestamps to human-readable dates and vice versa. Free online epoch converter for developers.',
   keywords: ['epoch converter', 'unix timestamp', 'timestamp to date', 'date to timestamp', 'epoch time'],
