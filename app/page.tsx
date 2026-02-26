@@ -58,7 +58,7 @@ export default function Home() {
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-amber-500 to-orange-600 flex items-center justify-center text-2xl shadow-lg">⏰</div>
               <div>
-                <h1 className="text-xl font-bold text-slate-900">Epoch Converter</h1>
+                <span className="text-xl font-bold text-slate-900">Epoch Converter</span>
                 <p className="text-sm text-slate-500">Timestamp to Date</p>
               </div>
             </div>
@@ -74,7 +74,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
           <div className="text-center max-w-3xl mx-auto">
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-amber-500 to-orange-600 text-3xl shadow-xl mb-6">⏰</div>
-            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">Epoch Converter</h2>
+            <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">Epoch Converter</h1>
             <p className="text-lg md:text-xl text-slate-600">Convert between Unix timestamps and human-readable dates instantly.</p>
           </div>
         </div>
