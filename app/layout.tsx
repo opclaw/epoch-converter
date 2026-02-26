@@ -45,7 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
       </head>
-      <body className="min-h-screen bg-slate-50">{children}</body>
+      <body className="min-h-screen" style={{ backgroundColor: 'var(--color-background)' }}>{children}</body>
     </html>
   )
 }
